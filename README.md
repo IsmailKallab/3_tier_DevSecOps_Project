@@ -23,23 +23,23 @@ The application is a basic **User Management**  to illustrate the development an
 1. **Clone the Repository:**
 
      
-bash
+      ```bash
      git clone https://github.com/your-username/3_tier_DevSecOps_Project.git
      cd 3_tier_DevSecOps_Project
 
 2. **Install dependencies:**
-bash
+      ```bash
      cd api && npm install
      cd ../client && npm install
 
 4. **Start the API server:**
       
-bash
+    ```bash
       cd api
       npm start
 
 6. **Start the React client (in a separate terminal):**
-bash
+      ```bash
       cd client
       npm start
 7. **Access the app in your browser:**
@@ -57,7 +57,7 @@ bash
 
 ## 📂 Project Structure
 
-bash
+ ```bash
      3_tier_DevSecOps_Project/
      ├── api/        # Node.js backend
      ├── client/     # React frontend
